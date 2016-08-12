@@ -1,0 +1,24 @@
+body {
+  background: #5b3ba2;
+  font-family: Roboto, Verdana, sans-serif;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 1.5em;
+  font-weight: 500;
+  line-height: 1.875em;
+  color: #323232;
+}
+
+h1.catalog-title {
+  font-size: 2.1875em;
+  font-weight: 700;
+  line-height: 2.5625em;
+  color: white;
+}
+
+.menu-list .catalog-menu {
+  display: none;
+  color: #772f2f;
+}
