@@ -10,6 +10,7 @@ body {
   font-size: 16px;
 }
 
+
 /*COMMON CSS*/
 
 .clearfix:after {
@@ -55,18 +56,40 @@ textarea:focus {
   box-shadow: 0 0 0 1px #8fbdec;
 }
 
-::-webkit-input-placeholder {color:#999; font-weight: 400;}
-::-moz-placeholder {color:#999; font-weight: 400;}         
-:-ms-input-placeholder {color:#999; font-weight: 400;}
-textarea::-webkit-input-placeholder {color:#999; font-weight: 400;}
-textarea::-moz-placeholder {color:#999; font-weight: 400;}
-textarea:-ms-input-placeholder {color:#999; font-weight: 400;}
+::-webkit-input-placeholder {
+  color: #999;
+  font-weight: 400;
+}
+
+::-moz-placeholder {
+  color: #999;
+  font-weight: 400;
+}
+
+:-ms-input-placeholder {
+  color: #999;
+  font-weight: 400;
+}
+
+textarea::-webkit-input-placeholder {
+  color: #999;
+  font-weight: 400;
+}
+
+textarea::-moz-placeholder {
+  color: #999;
+  font-weight: 400;
+}
+
+textarea:-ms-input-placeholder {
+  color: #999;
+  font-weight: 400;
+}
 
 .index-wrapper input + label,
 .index-wrapper textarea + label {
   position: absolute;
   visibility: hidden;
-  
   font-size: 11px;
   line-height: 13px;
   font-weight: 400;
@@ -80,6 +103,7 @@ input[type="search"]:focus + label,
 textarea:focus + label {
   visibility: visible;
 }
+
 
 /* END OF COMMON CSS*/
 
@@ -436,12 +460,10 @@ textarea:focus + label {
   height: 44px;
   border: none;
   outline: none;
-  
   color: #fefefe;
   font-size: 18px;
   line-height: 24px;
   font-weight: 700;
-  
   cursor: pointer;
 }
 
@@ -461,12 +483,10 @@ textarea:focus + label {
   display: inline-block;
   vertical-align: top;
   padding: 8px 34px 8px 44px;
-  
   background-color: rgba(255, 255, 255, 0.2);
   background-image: url(../img/basket.svg);
   background-position: 15px 50%;
   background-repeat: no-repeat;
-  
   color: #fefefe;
   border-radius: 16px;
   font-size: 14px;
@@ -501,8 +521,6 @@ textarea:focus + label {
   background-repeat: no-repeat;
 }
 
-
-
 .basket:hover > .basket-card {
   display: block;
 }
@@ -513,11 +531,9 @@ textarea:focus + label {
   z-index: 99;
   top: 37px;
   left: -420px;
-  
   box-sizing: border-box;
   width: 539px;
   padding: 20px 15px 67px;
-  
   background-color: #fefefe;
   border-radius: 5px;
   box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.4);
@@ -549,10 +565,8 @@ textarea:focus + label {
   position: relative;
   width: 12px;
   height: 12px;
- 
   margin-right: 10px;
   margin-top: 10px;
-  
   cursor: pointer;
 }
 
@@ -565,12 +579,10 @@ textarea:focus + label {
   left: -2px;
   width: 15px;
   background-color: #323232;
- 
 }
 
 .delete-item:after {
   transform: rotate(45deg);
-  
 }
 
 .delete-item:before {
@@ -602,7 +614,8 @@ textarea:focus + label {
 }
 
 .item-price {
-  width: 50px;/*60px */
+  width: 50px;
+  /*60px */
   margin-top: 10px;
 }
 
@@ -610,7 +623,6 @@ textarea:focus + label {
   float: right;
   margin-top: 15px;
   margin-bottom: 12px;
-  
   font-size: 15px;
   line-height: 18px;
   font-weight: 700;
@@ -622,14 +634,11 @@ textarea:focus + label {
   right: 15px;
   margin-top: 46px;
   padding: 12px 15px;
-  
-  
   font-size: 18px;
   line-height: 24px;
   font-weight: 700;
   color: rgb(254, 254, 254);
-  }
-
+}
 
 .contacts {
   float: right;
@@ -817,7 +826,6 @@ textarea:focus + label {
   width: 298px;
   height: 406px;
   margin-top: 100px;
-  
   opacity: 0.2;
   border-radius: 4px;
   background-color: #fff;
@@ -896,9 +904,7 @@ img.hit {
   z-index: 999;
   top: 335px;
   left: 34px;
-  
   padding: 13px 16px;
-  
   font-size: 18px;
   color: #fff;
   text-decoration: none;
@@ -906,10 +912,10 @@ img.hit {
 }
 
 .product-item:hover > .item-btn,
-.product-item:hover > .product-item_overlay{
-    display: block;
+.product-item:hover > .product-item_overlay {
+  display: block;
 }
-  
+
 .features {
   padding: 22px 20px 19px;
   margin-bottom: 40px;
@@ -1107,7 +1113,7 @@ aside > * {
   color: #323232;
 }
 
-.call-us b {  
+.call-us b {
   font-size: 18px;
   line-height: 31px;
   font-weight: 700;
@@ -1320,10 +1326,8 @@ body {
   height: 443px;
   padding: 20px 25px;
   transform: translate(-50%, -50%);
-  
   border-radius: 7px;
   background: #f8f7f4;
-  
   animation: drop 1s ease forwards;
 }
 
@@ -1393,7 +1397,6 @@ body {
   height: 44px;
   margin-bottom: 20px;
   padding-left: 15px;
-  
   border: 1px solid #d3d3d2;
   border-radius: 5px;
 }
@@ -1405,7 +1408,7 @@ body {
   padding: 11px 15px;
   border: 1px solid #d3d3d2;
   border-radius: 5px;
-  resize: none; 
+  resize: none;
 }
 
 .modal-content label[for="name"] {
@@ -1458,7 +1461,6 @@ body {
 .modal-content span {
   display: block;
   margin-bottom: 25px;
-  
   font-size: 24px;
   line-height: 28px;
   font-weight: 500;
@@ -1472,7 +1474,6 @@ body {
   margin-left: 287px;
   outline: none;
   border: none;
-  
   font-size: 18px;
 }
 
@@ -1490,7 +1491,7 @@ body {
   list-style: none;
 }
 
-.breadcrumbs-item{
+.breadcrumbs-item {
   position: relative;
   display: inline;
   padding-right: 17px;
@@ -1504,7 +1505,7 @@ body {
   color: #fff;
 }
 
-.breadcrumbs-item:last-child::after{
+.breadcrumbs-item:last-child::after {
   display: none;
 }
 
@@ -1527,6 +1528,7 @@ body {
   border-bottom: none;
 }
 
+
 /*CATALOG MAIN*/
 
 .catalog-content {
@@ -1537,7 +1539,6 @@ body {
 .catalog-title {
   margin: 0;
   margin-bottom: 45px;
-  
   font-size: 35px;
   height: 41px;
   font-weight: 700;
@@ -1558,7 +1559,6 @@ form.icecreem-filter {
   position: absolute;
   top: -20px;
   left: 15px;
-  
   font-size: 14px;
   line-height: 16px;
   font-weight: 500;
@@ -1574,7 +1574,6 @@ form.icecreem-filter {
   height: 36px;
   margin-bottom: 38px;
   margin-right: 16px;
-  
   font-size: 16px;
   line-height: 18px;
   font-weight: 500;
@@ -1586,7 +1585,6 @@ form.icecreem-filter {
   position: absolute;
   top: 17px;
   right: 15px;
-  
   border: 4px solid #fff;
   border-top-width: 5px;
   border-left-color: transparent;
@@ -1594,8 +1592,7 @@ form.icecreem-filter {
   border-bottom-width: 0;
 }
 
-
-.sorting select { 
+.sorting select {
   padding: 7px 48px 8px 15px;
   border-radius: 25px;
   outline: none;
@@ -1603,7 +1600,6 @@ form.icecreem-filter {
   -webkit-appearance: none;
   -moz-appearance: none;
   -ms-appearance: none;
-  
   background-color: rgba(248, 247, 244, 0.2);
   font: inherit;
   color: inherit;
@@ -1613,15 +1609,12 @@ form.icecreem-filter {
   display: inline-block;
   position: relative;
   vertical-align: top;
-
   box-sizing: border-box;
   width: 218px;
   height: 36px;
   margin-right: 16px;
-  
-  background-color: rgba(255,255,255,.2);
+  background-color: rgba(255, 255, 255, .2);
   border-radius: 40px;
-  
   font-size: 16px;
   line-height: 18px;
   font-weight: 500;
@@ -1633,19 +1626,16 @@ form.icecreem-filter {
 }
 
 .price::after {
-    content: "";
-    position: absolute;
-    background-color: #fff;
-    top: 16px;
-    left: 46px;
-    width: 100px;
-    height: 5px;
+  content: "";
+  position: absolute;
+  background-color: #fff;
+  top: 16px;
+  left: 46px;
+  width: 100px;
+  height: 5px;
 }
 
-
-.price-range {
- 
-}
+.price-range {}
 
 .price-range::before,
 .price-range::after {
@@ -1678,7 +1668,7 @@ form.icecreem-filter {
   left: 16px;
   width: 190px;
   height: 5px;
-  background-color: rgba(255,255,255,.5)
+  background-color: rgba(255, 255, 255, .5)
 }
 
 .price-line::after {
@@ -1696,10 +1686,8 @@ form.icecreem-filter {
   height: 36px;
   padding-top: 9px;
   padding-left: 16px;
-  
-  background-color: rgba(255,255,255,.2);
+  background-color: rgba(255, 255, 255, .2);
   border-radius: 40px;
-  
   font-size: 0;
 }
 
@@ -1713,12 +1701,10 @@ form.icecreem-filter {
   vertical-align: middle;
   padding-left: 30px;
   margin-right: 20px;
-  
   font-size: 16px;
   line-height: 18px;
   font-weight: 500;
   color: #fff;
-  
   cursor: pointer;
 }
 
@@ -1761,10 +1747,8 @@ form.icecreem-filter {
   padding-top: 8px;
   padding-left: 16px;
   margin-right: 14px;
-  
-  background-color: rgba(255,255,255,.2);
+  background-color: rgba(255, 255, 255, .2);
   border-radius: 40px;
-  
   font-size: 0;
 }
 
@@ -1778,12 +1762,10 @@ form.icecreem-filter {
   vertical-align: middle;
   padding-left: 31px;
   margin-right: 20px;
-  
   font-size: 16px;
   line-height: 18px;
   font-weight: 500;
   color: #fff;
-  
   cursor: pointer;
 }
 
@@ -1793,7 +1775,6 @@ form.icecreem-filter {
   width: 18px;
   height: 18px;
   left: 0;
-  
   border: 1px solid #fff;
   border-radius: 5px;
 }
@@ -1809,7 +1790,6 @@ form.icecreem-filter {
   height: 10px;
   left: 5px;
   top: 5px;
- 
   background: url(../img/checkbox.png) center;
 }
 
@@ -1819,20 +1799,17 @@ form.icecreem-filter {
 }
 
 .fatness input:disabled label:hover::before,
-.toppings input:disabled label:hover::before{
+.toppings input:disabled label:hover::before {
   box-shadow: none;
 }
-
 
 .filter-submit {
   display: inline-block;
   width: 144px;
   height: 36px;
-  
   border: 2px solid #fff;
-  background-color: rgba(255,255,255,.2);
+  background-color: rgba(255, 255, 255, .2);
   border-radius: 40px;
-  
   font-family: inherit;
   font-size: 16px;
   line-height: 18px;
@@ -1854,7 +1831,6 @@ form.icecreem-filter {
 
 .pagination {
   float: right;
-  
   font-size: 0;
 }
 
@@ -1862,7 +1838,7 @@ form.icecreem-filter {
   display: inline-block;
   width: 9px;
   height: 14px;
-  opacity: 0.2;  
+  opacity: 0.2;
 }
 
 .controls a {
@@ -1891,16 +1867,14 @@ form.icecreem-filter {
 }
 
 .pagination-item {
-   display: inline-block;
+  display: inline-block;
 }
 
 .pagination-list .page {
   display: block;
   padding: 6px 11px 6px 10px;
-  
   background-color: transparent;
   border-radius: 50%;
-  
   font-size: 16px;
   line-height: 18px;
   font-weight: 500;
@@ -1937,4 +1911,3 @@ form.icecreem-filter {
 .catalog-content + .main-footer .copyright {
   padding-top: 20px;
 }
-
