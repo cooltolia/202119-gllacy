@@ -807,7 +807,7 @@ textarea:focus + label {
   margin-right: 26px;
 }
 
-.product-item::before {
+.product-item_overlay {
   content: '';
   position: absolute;
   display: none;
@@ -893,7 +893,7 @@ img.hit {
 .item-btn {
   display: none;
   position: absolute;
-  z-index: 200;
+  z-index: 999;
   top: 335px;
   left: 34px;
   
@@ -905,13 +905,13 @@ img.hit {
   border-radius: 100px;
 }
 
-.product-item:hover .product-item::before, 
-.product-item:hover > .item-btn {
+.product-item:hover > .item-btn,
+.product-item:hover > .product-item_overlay{
     display: block;
 }
   
 .features {
-  padding: 25px 20px 19px;
+  padding: 22px 20px 19px;
   margin-bottom: 40px;
   background: url(../img/waffle-min.png) no-repeat;
   background-size: cover;
@@ -1277,7 +1277,7 @@ body {
   vertical-align: top;
   width: 267px;
   padding-top: 10px;
-  padding-bottom: 27px;
+  padding-bottom: 17px;
   padding-left: 77px;
 }
 
@@ -1530,7 +1530,7 @@ body {
 /*CATALOG MAIN*/
 
 .catalog-content {
-  padding-bottom: 40px;
+  padding-bottom: 32px;
   border-bottom: 1px solid rgba(234, 234, 234, 0.3);
 }
 
@@ -1926,4 +1926,15 @@ form.icecreem-filter {
   margin-right: 14px;
 }
 
+.catalog-content + .main-footer .socials {
+  padding-top: 39px;
+}
+
+.catalog-content + .main-footer .info {
+  padding-top: 33px;
+}
+
+.catalog-content + .main-footer .copyright {
+  padding-top: 20px;
+}
 
