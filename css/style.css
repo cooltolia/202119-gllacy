@@ -830,7 +830,7 @@ textarea:focus + label {
   text-align: left;
 }
 
-.product-item::after {
+.catalog-wrapper .product-item::after {
   content: '';
   position: absolute;
   display: none;
@@ -858,7 +858,7 @@ textarea:focus + label {
   margin-bottom: 12px;
 }
 
-.hit::after {
+.index-wrapper .hit::before {
   content: '';
   position: absolute;
   top: 0;
@@ -1085,8 +1085,6 @@ aside > * {
   font-weight: 700;
   color: #fefefe;
 }
-
-
 
 
 /*MAP*/
