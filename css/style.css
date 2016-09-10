@@ -108,7 +108,7 @@ textarea:focus + label {
 /* END OF COMMON CSS*/
 
 .site-wrapper {
-  min-width: 940px;
+  min-width: 1240px;
   background-repeat: no-repeat;
   background-position: top center;
   transition: background-image 0.5s ease, background-color 0.5s ease;
@@ -130,8 +130,7 @@ textarea:focus + label {
 }
 
 .content-wrapper {
-  max-width: 1146px;
-  min-width: 846px;
+  min-width: 1146px;
   height: 100%;
   padding: 10px 27px;
   margin: 0 auto;
