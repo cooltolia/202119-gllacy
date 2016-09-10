@@ -1086,9 +1086,7 @@ aside > * {
   color: #fefefe;
 }
 
-.map {
-  position: relative;
-}
+
 
 
 /*MAP*/
@@ -1100,10 +1098,17 @@ aside > * {
   background-color: #fff;
 }
 
-.yandex-map {
+.map {
   position: absolute;
   top: 0;
   left: 0;
+  width: 100%;
+}
+
+.map iframe {
+  position: absolute;
+  width: 100%;
+  border: none;
 }
 
 .map-inside {
